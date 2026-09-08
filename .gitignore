@@ -1,0 +1,39 @@
+# Packaged Windows application and archives (generated, includes files over GitHub's limit)
+/windows/
+
+# Out-of-tree Qt/CMake build directories
+/build-*/
+/DAS_9.0/build/
+/DAS_9.0/dist/
+
+# Temporary conversion/rendering work
+/_caj_work/
+/_docx_render_test/
+/DAS_9.0/tmp/
+/DAS_9.0/.caj2pdf-git-metadata/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# CMake/Qt Creator local state
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.user
+*.user.*
+
+# Compiler/debug artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
